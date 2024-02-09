@@ -9,6 +9,8 @@ header, #hero, footer{
 }
 section {
     padding: 50px;
+    justify-content: center;
+    align-content: center;
 }
 
 header {
@@ -44,27 +46,35 @@ nav li {
     margin-top: 15px;
     padding: 10px 10px;
     border: none;
-    font-weight: 500;
-    font-size: 20x;
     width: 120px;
     height: auto;
     flex-shrink: 0;
 }
 
+button {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
 #hero {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between;
     
-    align-items: center;
+    align-items: center; */
      
 }
-#hero div {
-    max-width: 450px;
+#section-container {
+    /* max-width: 450px; */
+    display: flex;
+    justify-content: space-between;
+    align-items:center;    
+
 }
 
 #hero h1{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 1100;
     color: #f9faf8;
 }
 
@@ -73,12 +83,20 @@ nav li {
  color: #e5e7eb;
 }
 
+.hero-text {
+    width: 450px;
+    margin-right: 50px;
+}
+
 #hero_img {
-    width: 50px;
+    width: 450px;
+    
 }
 
 #info h2 {
     font-size: 36px;
+    text-align: center;
+    padding-bottom: 50px;
   
 }
 
@@ -92,12 +110,15 @@ nav li {
 }
 #info #items {
     display: flex;
-    gap: 25px;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 450px;
 }
 
 #item-img {
  border: 5px solid #3882F8;
  border-radius: 10px;
+ width: 180px;
 }
 
 #quote {
