@@ -1,9 +1,16 @@
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 header, #hero, footer{
     background-color: #1F2937;
     color: ;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
 }
 
 nav ul {
@@ -12,6 +19,9 @@ nav ul {
     list-style: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+nav li {
+    margin-left: 20px;
 }
 
 #logo-text {
@@ -45,18 +55,36 @@ nav ul {
 
 }
 
+#info h2 {
+    font-size: 36px;
+  
+}
+
 #info {
+    color:#1F2937
 
 }
 
 #item-img {
-
+ border: 5px solid #3882F8;
+ border-radius: 10px;
 }
 
 #quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    background-color: #e5e7eb;
+    /* light italic */
 
 }
 
 #sign-up-item {
+    background-color: #3882F8;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
 
+#sign-up-item button {
+    border: 2px solid #e5e7eb;
 }
