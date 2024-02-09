@@ -1,0 +1,12 @@
+* {
+    font-family: 'Roboto', sans-serif;;
+}
+header, #hero, footer{
+    background-color: #1F2937;
+}
+
+#logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    
+}
