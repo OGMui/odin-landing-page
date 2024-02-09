@@ -7,9 +7,14 @@ header, #hero, footer{
     background-color: #1F2937;
     color: ;
 }
+section {
+    padding: 50px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 15px 40px;
 }
 
@@ -18,10 +23,11 @@ nav ul {
     text-decoration: none;
     list-style: none;
     font-size: 18px;
-    color: #e5e7eb;
+    
 }
 nav li {
     margin-left: 20px;
+    color: #e5e7eb;
 }
 
 #logo-text {
@@ -35,9 +41,25 @@ nav li {
     color:#F9faf8;
     background-color:#3882F8 ;
     border-radius: 10px;
+    margin-top: 15px;
     padding: 10px 10px;
     border: none;
     font-weight: 500;
+    font-size: 20x;
+    width: 120px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+     
+}
+#hero div {
+    max-width: 450px;
 }
 
 #hero h1{
@@ -52,7 +74,7 @@ nav li {
 }
 
 #hero_img {
-
+    width: 50px;
 }
 
 #info h2 {
@@ -61,8 +83,16 @@ nav li {
 }
 
 #info {
-    color:#1F2937
+    color:#1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 
 
+
+}
+#info #items {
+    display: flex;
+    gap: 25px;
 }
 
 #item-img {
