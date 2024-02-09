@@ -3,10 +3,51 @@
 }
 header, #hero, footer{
     background-color: #1F2937;
+    color: ;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
 }
 
 #logo-text {
     font-size: 24px;
     font-weight: 700;
+    color: #f9faf8;
     
+}
+
+#sign-up-btn {
+    color:;
+    background-color: ;
+}
+
+#hero h1{
+
+}
+
+#hero p {
+
+}
+
+#hero_img {
+
+}
+
+#info {
+
+}
+
+#item-img {
+
+}
+
+#quote {
+
+}
+
+#sign-up-item {
+
 }
