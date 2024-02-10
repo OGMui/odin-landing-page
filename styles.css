@@ -11,7 +11,8 @@ header, #hero, footer{
     color: ;
 }
 section {
-    padding: 50px;
+    height: 350px;
+    padding: 35px;
     display: flex;
     justify-content: center; 
     align-content: center; 
@@ -77,6 +78,13 @@ button {
 
 }
 
+#quote #container  {
+    flex-direction: column;
+    width: 830px;
+}
+
+
+
 #hero h1{
     font-size: 48px;
     font-weight: 1100;
@@ -101,7 +109,8 @@ button {
 #info h2 {
     font-size: 36px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     font-weight: 900;
   
 }
@@ -138,13 +147,25 @@ button {
 }
 
 #quote {
-    font-size: 36px;
+    
     color: #1F2937;
-    font-style: italic;
     background-color: #e5e7eb;
-    font-weight: 100;
+    margin: 0s;
     /* light italic */
 
+}
+
+#quote-txt {
+     font-style: italic;
+     font-weight: 600;
+     font-size: 36px;
+     letter-spacing: 1px;
+}
+
+#quote-author {
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: auto;
 }
 
 #sign-up-item {
@@ -152,9 +173,10 @@ button {
     color: #e5e7eb;
     border-radius: 10px;
     width: 1000px;
+    height: 115px;
     padding: 20px 40px 20px 40px;
     align-items:center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
 }
 
@@ -166,4 +188,11 @@ button {
     border: 2px solid #e5e7eb;
     margin: 0;
     
+}
+
+footer {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
 }
