@@ -6,9 +6,10 @@ This repository serves at the second HTML and CSS project with the Odin's projec
 
 The assignment required replicating the design of a landing page using HTML and CSS, with a focus on practicing CSS and flexbox.
 
-![Example landing page layout and design](Odin-landing-page-example.png "Example Page")
-
-![Fonts and colors to for the landing page](Odin-landing-page-colors-and-font-examples.png "Example Fonts and Colors")
+<div style="display: flex; gap: 10px">
+    <img src="Odin-landing-page-example.png" alt="Example landing page layout and design" width="38%">
+    <img src="Odin-landing-page-colors-and-font-examples.png" alt="Fonts and colors for the landing page" width="38%">
+</div>
 
 ## Final Product
 
